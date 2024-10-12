@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "starWars",
+    "slug": "starWars",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": " ",
+      "resizeMode": "contain",
+      "backgroundColor": "#031010"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#031010"
+      }
+    },
+    "web": {
+      "favicon": ""
+    },
+    "plugins": [
+      [
+        "expo-font",
+      {
+        "fonts": [
+          "./src/assets/fonts/Aurebesh-English.ttf",
+          "./src/assets/fonts/JediSolid.ttf",
+          "./src/assets/fonts/SFDistantGalaxy.ttf",
+          "./src/assets/fonts/Starkiller.ttf",
+          "./src/assets/fonts/AlmostThere-Numeric.otf"
+        ]
+      }
+    ]
+  ] 
+  }
+}
